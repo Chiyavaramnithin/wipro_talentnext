@@ -1,0 +1,16 @@
+import java.util.Scanner;
+package java_fundamental;
+
+public class Qestion2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	
+		// TODO Auto-generated method stub
+		String a = "welcome";
+		String b = sc.nextLine();
+		System.out.println(a+" "+b);
+
+	}
+
+}
