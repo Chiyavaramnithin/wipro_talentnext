@@ -1,0 +1,27 @@
+package java_fundamental;
+import java.util.Scanner;
+
+public class Question21 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int a[]= sc.nextInt();
+		int numbers[] = new Int[a];
+		 for (int i = 0; i < a; i++) {
+	            numbers[i] = sc.nextInt();
+	        }
+
+	        int sum = 0;
+	        for (int num : numbers) {
+	            sum += num;
+	        }
+	        double average = (double) sum / a;
+
+	        // Print results
+	        System.out.println("Sum of array elements: " + a);
+	        System.out.println("Average of array elements: " + average)
+
+	}
+
+}
